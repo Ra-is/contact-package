@@ -15,5 +15,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rais\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+    
 }
